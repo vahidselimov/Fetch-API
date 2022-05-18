@@ -1,0 +1,94 @@
+body {
+  background-color: #F4AC32;
+}
+
+.container .row .card {
+  margin-top: 60px;
+  width: 10px;
+  height: 130% width 200px;
+  background-color: #ffd131;
+}
+
+.container .row .card .card-body .btn {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+.container .row .card .card-body .btn:hover {
+  padding: 10px;
+  background-color: white;
+  width: 110px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container .row .card .card-body .card-title {
+  height: 130px;
+}
+
+.container .row .card .card-body .card-text {
+  font-size: 30px;
+  color: #adb1bf;
+  margin-left: 47%;
+  margin-top: 50px;
+}
+
+.container .row .card .card-body p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.container .row .card .card-body p:hover {
+  color: #408434;
+}
+
+.container .row .card .card-body a h5 {
+  color: #136767;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.container .row .card .card-body .card-title {
+  color: black;
+  padding: 0;
+  width: auto;
+}
+
+.container .row .card .card-body .card-title:hover {
+  color: white;
+  padding: 20px;
+  width: 200px;
+}
+
+.container .row .card .image {
+  width: 270px;
+  margin-top: 10px;
+  padding: 11px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.container .row .card .image:hover {
+  padding: 35px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=index.css.map */

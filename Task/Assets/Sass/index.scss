@@ -1,0 +1,110 @@
+body {
+  background-color: #F4AC32;
+}
+
+.container {
+
+  .row {
+
+    .card {
+      margin-top: 60px;
+      width: 10px;
+      height: 130% width max($numbers: 200px);
+      background-color: #ffd131;
+      
+
+      .card-body {
+          
+        .btn {
+          width: 120px;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px;
+          background-color: black;
+          margin-top: 40px;
+          margin-left: 25%;
+        }
+
+        .btn:hover {
+          padding: 10px;
+          background-color: rgb(255, 255, 255);
+          width: 110px;
+
+          transition: 1s;
+
+
+        }
+
+        .card-title {
+          height: 130px;
+
+        }
+
+        .card-text {
+          font-size: 30px;
+          color: rgb(173, 177, 191);
+          margin-left: 47%;
+          margin-top: 50px;
+
+        }
+
+        p {
+          color: white;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        p:hover{
+          color: rgb(64, 132, 52);
+        }
+
+        a {
+          h5 {
+            color: rgb(19, 103, 103);
+            margin-top: 5px;
+            margin-left: 25px;
+          }
+        }
+        .card-title{
+          color: rgb(0, 0, 0);
+          padding: 0;
+          width: auto;
+        }
+        .card-title:hover{
+          color: white;
+          padding: 20px;
+          width: 200px;
+        }
+
+      }
+      
+
+      .image {
+        width: 270px;
+        margin-top: 10px;
+        padding: 11px;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+
+      }
+
+      .image:hover {
+
+        padding: 35px;
+        transition: 0.5s;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-top: 3px solid rgb(255, 255, 255);
+        border-left: 3px solid rgb(255, 255, 255);
+        border-right: 3px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        margin-top: 50px;
+        
+      }
+
+
+
+    }
+
+  }
+}
