@@ -83,12 +83,8 @@ fetch("https://jsonplaceholder.typicode.com/photos").then((resp =>
 
       }
       index.push(cards);
-      localStorage.setItem("index",JSON.stringify(index))
-
+      localStorage.setItem("index",JSON.stringify(index))  
       
-
-
-     
     })
    
    })
